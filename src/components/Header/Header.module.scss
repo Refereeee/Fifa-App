@@ -1,0 +1,111 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0E0E11;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.imgWrapper{
+  display: flex;
+}
+
+.img{
+  width: 288px;
+  height: 111px;
+}
+
+
+
+.navLink{
+  display: flex;
+  cursor: pointer;
+}
+
+.listLinks{
+  display: flex;
+  gap: 2rem;
+}
+
+.tabs{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding-right: 4rem;
+}
+
+.linkCart{
+  color: var(--clr-black);
+  display: flex;
+  gap: 0.5rem;
+}
+
+.cart{
+  position: relative;
+  padding: 10px;
+  transition-duration: .2s;
+}
+
+.cart:hover{
+  background-color: #1E1E27;
+  border-radius: 5px;
+}
+
+.cartSpan{
+  display: flex;
+  width: 1.2rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--clr-primary-3);
+  color: var(--clr-white);
+  position: absolute;
+  left: 1.9rem;
+  top: -0.1rem;
+}
+
+.login{
+  border:1px solid #87879E;
+  border-radius: 5px;
+  padding: 10px 10px 1px 10px;
+  justify-content: center;
+  display: flex;
+  gap: 0.5rem;
+  transition-duration: 0.2s;
+}
+
+.login:hover{
+  background-color: #1E1E27;
+  border: 1px solid #87879E;
+  border-radius: 5px;
+}
+
+.register{
+  border: 1px solid #87879E;
+  border-radius: 5px;
+  padding: 10px 10px 1px 10px;
+  justify-content: center;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.register:hover{
+  background-color: #1E1E27;
+  border: 1px solid #87879E;
+  border-radius: 5px;
+}
+
+.imgLogin{
+  border-radius: 50%;
+}
+
+.loginName{
+  display: block;
+  text-align: center;
+}
+
+.loginOut{
+  position: absolute;
+  left: 67px;
+  top: 23px;
+}
